@@ -31,7 +31,7 @@ message FindOneData {
   double price = 5;
 }
 
-message FineOneRequest {
+message FindOneRequest {
   int32 id = 1;
 }
 
