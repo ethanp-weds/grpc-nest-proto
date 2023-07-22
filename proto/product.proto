@@ -44,6 +44,7 @@ message FindOneResponse {
 // Decrease Stock
 message DecreaseStockRequest {
   int32 id = 1;
+  int32 orderId = 2;
 }
 
 message DecreaseStockResponse {
