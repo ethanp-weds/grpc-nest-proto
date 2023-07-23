@@ -35,6 +35,16 @@ message FindOneRequest {
   int32 id = 1;
 }
 
+// Get all
+message GetAllRequest {}
+
+message GetAllResponse {
+  int32 status = 1;
+  repeated string error = 2;
+  // array of product
+  repeated FindOneData data = 3;
+}
+
 message FindOneResponse {
   int32 status = 1;
   repeated string error = 2;
