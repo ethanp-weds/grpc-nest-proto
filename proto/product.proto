@@ -6,6 +6,7 @@ service ProductService {
   rpc CreateProduct (CreateProductRequest) returns (CreateProductResponse) {}
   rpc FindOne (FindOneRequest) returns (FindOneResponse) {}
   rpc DecreaseStock (DecreaseStockRequest) returns (DecreaseStockResponse) {}
+  rpc GetAll (GetAllRequest) returns (GetAllResponse) {}
 }
 
 // Create Product
